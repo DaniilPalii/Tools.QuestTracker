@@ -1,10 +1,50 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestTracker.Domain", "Source\QuestTracker.Domain\QuestTracker.Domain.csproj", "{FB383600-8FBE-4A67-9C6F-0142DE000A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestTracker.Client.Console", "Source\Client\QuestTracker.Client.Console\QuestTracker.Client.Console.csproj", "{5BFB87F4-7C79-4A86-B107-59201D557CE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{239ADBEF-6EED-4A5B-84AD-AA5B11476B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestTracker.Client.Desktop", "Source\Client\QuestTracker.Client.Desktop\QuestTracker.Client.Desktop.csproj", "{BF7F5CE9-17C4-4709-B5F1-1930B10B7C61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{54041A79-804B-4939-9D99-09CC53D47AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestTracker.Database", "Source\Database\QuestTracker.Database\QuestTracker.Database.csproj", "{FEB8328A-0FA1-4265-95D2-1CCFA97C8E80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestTracker.Database.Migration", "Source\Database\QuestTracker.Database.Migration\QuestTracker.Database.Migration.csproj", "{E827F6AB-D879-40DB-A3F9-E93C23DCEA7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB383600-8FBE-4A67-9C6F-0142DE000A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB383600-8FBE-4A67-9C6F-0142DE000A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB383600-8FBE-4A67-9C6F-0142DE000A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB383600-8FBE-4A67-9C6F-0142DE000A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFB87F4-7C79-4A86-B107-59201D557CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFB87F4-7C79-4A86-B107-59201D557CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFB87F4-7C79-4A86-B107-59201D557CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFB87F4-7C79-4A86-B107-59201D557CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7F5CE9-17C4-4709-B5F1-1930B10B7C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7F5CE9-17C4-4709-B5F1-1930B10B7C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7F5CE9-17C4-4709-B5F1-1930B10B7C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7F5CE9-17C4-4709-B5F1-1930B10B7C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB8328A-0FA1-4265-95D2-1CCFA97C8E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB8328A-0FA1-4265-95D2-1CCFA97C8E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB8328A-0FA1-4265-95D2-1CCFA97C8E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB8328A-0FA1-4265-95D2-1CCFA97C8E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E827F6AB-D879-40DB-A3F9-E93C23DCEA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E827F6AB-D879-40DB-A3F9-E93C23DCEA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E827F6AB-D879-40DB-A3F9-E93C23DCEA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E827F6AB-D879-40DB-A3F9-E93C23DCEA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BFB87F4-7C79-4A86-B107-59201D557CE6} = {239ADBEF-6EED-4A5B-84AD-AA5B11476B79}
+		{BF7F5CE9-17C4-4709-B5F1-1930B10B7C61} = {239ADBEF-6EED-4A5B-84AD-AA5B11476B79}
+		{FEB8328A-0FA1-4265-95D2-1CCFA97C8E80} = {54041A79-804B-4939-9D99-09CC53D47AEC}
+		{E827F6AB-D879-40DB-A3F9-E93C23DCEA7A} = {54041A79-804B-4939-9D99-09CC53D47AEC}
 	EndGlobalSection
 EndGlobal
